@@ -1,33 +1,15 @@
-#!/bin/bash
-
-#sudo apt-get update && sudo apt-get upgrade -y;
- """_______
-( ytmp3 )
- -------
-o
- o        \\           //          
-  o        \\..-:::::-//           
-   o     .://///////////:.         
-    o  ´://  /////////  //:`       
-      ´////  /////////  ////`      
-      ://///////////////////:      
- .-.  -----------------------  .-.
-:///: /////////////////////// :///:
-:///: /////////////////////// :///:
-:///: /////////////////////// :///:
-:///: /////////////////////// :///:
-:///: /////////////////////// :///:
-:///: /////////////////////// :///:
-:///: /////////////////////// :///:
- \_/  ///////////////////////  \_/  
-       :///////////////////:      
-          :////:   :////:          
-          :////:   :////:          
-          :////:   :////:          
-           \||/     \||/"
-
-echo ---------------------------------------------
-echo "                                            "
-echo "What is the link you would like to download?"
+echo "ytmp3 - Youtube Downloader and mp3 converter;
+echo "by: Leth4lity | 2022";
+echo ---------------------------------------------;
+echo "                                            ";
+export DIR=/home/$USER/Downloads;
+echo $DIR " is the default path of downloads.;
+echo "---------------------------------------------------"
+echo "Change it by running 'export DIR=/path/to/files/'"
+echo "What is the link you would like to download?";
 read LINK;
-youtube-dl -x $LINK --audio-format mp3 --yes-playlist 
+youtube-dl -x $LINK --audio-format mp3 --yes-playlist; 
+
+
+
+#Test URl: https://youtube.com/playlist?list=PLFUHNljS77Zujwr120VnfMJEsCfAH7IKE
