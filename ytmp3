@@ -3,4 +3,4 @@ echo "by: Leth4lity | 2022";
 echo ---------------------------------------------;
 echo What is the link you would like to download? ;
 read ytlink
-youtubedr download $ytlink 
+youtube-dl download $ytlink 
