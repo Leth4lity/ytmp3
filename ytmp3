@@ -1,11 +1,6 @@
 echo "ytmp3 - Youtube Downloader and mp3 converter;
 echo "by: Leth4lity | 2022";
 echo ---------------------------------------------;
-
-echo "What is the link you would like to download?";
-read LINK;
-youtubedr download $LINK; 
-
-
-
-#Test URl: https://youtube.com/playlist?list=PLFUHNljS77Zujwr120VnfMJEsCfAH7IKE
+echo What is the link you would like to download? ;
+read ytlink
+youtubedr download $ytlink 
